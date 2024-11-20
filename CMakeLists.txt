@@ -173,3 +173,9 @@ addBinaryFile(
 	example09_controllers fontPalette
 	"${PROJECT_BINARY_DIR}/example09/fontPalette.dat"
 )
+
+addExample(
+	example10_events
+	src/10_events/main.c
+	src/10_events/util.s
+)
